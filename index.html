@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    
+    <title>Web Design Mastery | Personal Portfolio Page</title>
+    
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Cod<span>e</span>r.</a></div>
+    </nav>
+    <header>
+      <div class="section__container header__container">
+        <p><span>Hello</span> I'm</p>
+        <h1>Ayush Mittal</h1>
+        <h2 class="section__title">Web <span>Designer.</span></h2>
+        <p>
+          Welcome to my web developer portfolio! I'm Ayush Mittal, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. I've worked on a variety of
+          web projects, ranging from personal blogs to e-commerce platforms.
+        </p>
+        <div>
+          <button class="theme-btn resume-btn  bg-[#fe3e57]">Resume</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- start about -->
+        <section class="bg-custom-gray py-[20px] md:py-[90px] sm:py-[80px]">
+            <div class="wraper">
+                <h2 class="section__about">About <span>Me</span></h2>
+                <!--Tabs navigation-->
+                <ul class="border-b-[1px] border-[#211f90] flex list-none flex-row flex-wrap mb-[60px] md:mb-[40px]  pl-0"
+                    role="tablist" data-te-nav-ref>
+                    <li role="presentation">
+                        <a href="#tabs-about" class="active block w-[210px] lg:w-[180px] md:w-[120px] h-[55px]  md:h-[40px] sm:mb-[15px] leading-[24px] text-center text-[#fff] 
+                        transition duration-150 ease-linear font-semibold mr-[10px] bg-transparent border-b-[3px] border-b-transparent
+                        data-[te-nav-active]:border-b-[#fff] hover:border-b-[#fff] hover:border-b-[2px]"
+                            data-te-toggle="pill" data-te-target="#tabs-about" data-te-nav-active role="tab"
+                            aria-controls="tabs-about" aria-selected="true">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tabs-skill"
+                            class="block w-[210px] lg:w-[180px] md:w-[120px] h-[55px]  md:h-[40px] sm:mb-[15px] leading-[24px] text-center text-[#fff] 
+                        transition duration-150 ease-linear font-semibold mr-[10px]  bg-transparent border-b-[3px]
+                         border-b-transparent data-[te-nav-active]:border-b-[#fff] hover:border-b-[#fff] hover:border-b-[2px]"
+                            data-te-toggle="pill" data-te-target="#tabs-skill" role="tab" aria-controls="tabs-skill"
+                            aria-selected="false">Skill</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tabs-services"
+                            class="block w-[210px] lg:w-[180px] md:w-[120px] h-[55px]  md:h-[40px] sm:mb-[15px] leading-[24px] text-center text-[#fff] 
+                        transition duration-150 ease-linear font-semibold mr-[10px]  bg-transparent border-b-[3px]
+                         border-b-transparent data-[te-nav-active]:border-b-[#fff] hover:border-b-[#fff] hover:border-b-[2px]"
+                            data-te-toggle="pill" data-te-target="#tabs-services" role="tab"
+                            aria-controls="tabs-services" aria-selected="false">Services</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tabs-social"
+                            class="block w-[210px] lg:w-[180px] md:w-[120px] h-[55px]  md:h-[40px] sm:mb-[15px] leading-[24px] text-center text-[#fff] 
+                        transition duration-150 ease-linear font-semibold mr-[10px]  bg-transparent border-b-[3px]
+                         border-b-transparent data-[te-nav-active]:border-b-[#fff] hover:border-b-[#fff] hover:border-b-[2px]"
+                            data-te-toggle="pill" data-te-target="#tabs-social" role="tab" aria-controls="tabs-social"
+                            aria-selected="false">Social Media</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tabs-award"
+                            class="block w-[210px] lg:w-[180px] md:w-[120px] h-[55px]  md:h-[40px] sm:mb-[15px] leading-[24px] text-center text-[#fff] 
+                        transition duration-150 ease-linear font-semibold mr-[10px]  bg-transparent border-b-[3px]
+                         border-b-transparent data-[te-nav-active]:border-b-[#fff] hover:border-b-[#fff] hover:border-b-[2px]"
+                            data-te-toggle="pill" data-te-target="#tabs-award" role="tab" aria-controls="tabs-award"
+                            aria-selected="false">Award</a>
+                    </li>
+                </ul>
+                <!--Tabs content-->
+                <div class="content">
+                    <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        id="tabs-about" role="tabpanel" data-te-tab-active>
+                        <div class="grid grid-cols-12 gap-3  lg:gap-3">
+                            <div class="col-span-6 md:col-span-12">
+                                <div class="w-[120%] md:w-full left-[-2px] md:left-0 mb-[50px] md:mb-[30px]">
+                                    <img class="w-full" src="assets/about-bg.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-span-6 md:col-span-12">
+                                <div class="pl-[30px] md:pl-0">
+                                    <h2
+                                        class="text-[50px] sm:text-[35px] text-[#fff] mb-[50px] md:mb-[30px] font-semibold">
+                                        I create products not just art</h2>
+                                    <p class="text-[#fff] mb-[50px] text-[16px] leading-[30px]">My name is John Smith. I
+                                        am a web designer and developer.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                                        accumsan lacus vel facilisis. </p>
+                                    <a href="contact.html" class="theme-btn">Lets Talk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        id="tabs-skill" role="tabpanel">
+                        <div class="grid grid-cols-12 gap-8 lg:gap-3">
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#fe3e57] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#fe3e57]">
+                                            <span class="odometer" data-count="75">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Communication Skills</p>
+                                </div>
+                            </div>
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#54faae] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#54faae]">
+                                            <span class="odometer" data-count="90">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Project Management</p>
+                                </div>
+                            </div>
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#ff8c2f] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#ff8c2f]">
+                                            <span class="odometer" data-count="65">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Problem Solving</p>
+                                </div>
+                            </div>
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#f1f965] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#f1f965]">
+                                            <span class="odometer" data-count="55">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Analitical Abilities</p>
+                                </div>
+                            </div>
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#ff0173] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#ff0173]">
+                                            <span class="odometer" data-count="40">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Organization</p>
+                                </div>
+                            </div>
+                            <div class="col-span-4 md:col-span-6 sm:col-span-6">
+                                <div class="mb-[70px] md:mb-[40px] sm:mb-[30px] relative">
+                                    <div>
+                                        <h2
+                                            class="text-[100px] lg:text-[75px] lg:leading-[50px] sm:text-[35px] sm:leading-[55px] leading-[80px] font-semibold mt-[8px] pb-[20px] text-[#39c4ff] 
+                                            before:absolute before:content before:bottom-[70px] md:before:bottom-[50px] sm:before:bottom-[30px] before:left-0 before:h-[3px] before:w-[300px] sm:before:w-[150px] before:bg-[#292863]
+                                            after:absolute after:content after:bottom-[70px] md:after:bottom-[50px] sm:after:bottom-[30px] after:left-0 after:h-[3px] after:w-[231px] sm:after:w-[100px] after:bg-[#39c4ff]">
+                                            <span class="odometer" data-count="85">00</span>%</h2>
+                                    </div>
+                                    <p
+                                        class="text-[25px] xl:text-[18px] md:text-[13px] sm:text-[12px] text-[#fff] pt-[5px] mt-[30px] sm:mt-[0px] font-semibold">
+                                        Creativity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        id="tabs-services" role="tabpanel">
+                        <div class="grid grid-cols-12 gap-8 lg:gap-3">
+                            <div class="col-span-6 md:col-span-12 sm:col-span-12">
+                                <div class="mb-[60px]">
+                                    <div class="flex items-center justify-centert sm:block">
+                                        <div class="mr-8 sm:mr-0 sm:mb-8 w-[200px] h-[184px] text-center leading-[184px]
+                                                bg-[url('../images/wpo-service/shape.html')] bg-no-repeat bg-center">
+                                            <i class="text-[#181764] text-[60px] ml-[20px] fi flaticon-idea"></i>
+                                        </div>
+                                        <div class="max-w-[300px] lg:max-w-[200px] md:max-w-[500px] sm:max-w-full">
+                                            <h2 class="text-[#fff] text-[40px] mb-[20px] leading-[55px] font-bold">
+                                                Product <br> Design</h2>
+                                            <p class="text-[#fff] text-[15px]  leading-[30px]">consectetur adipiscing
+                                                elit, eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-6 md:col-span-12 sm:col-span-12">
+                                <div class="mb-[60px]">
+                                    <div class="flex items-center justify-centert sm:block">
+                                        <div class="mr-8 sm:mr-0 sm:mb-8 w-[200px] h-[184px] text-center leading-[184px]
+                                                bg-[url('../images/wpo-service/shape-2.html')] bg-no-repeat bg-center">
+                                            <i
+                                                class="text-[#181764] text-[60px] ml-[20px] fi flaticon-files-and-folders"></i>
+                                        </div>
+                                        <div class="max-w-[300px] lg:max-w-[200px] md:max-w-[500px] sm:max-w-full">
+                                            <h2 class="text-[#fff] text-[40px] mb-[20px] leading-[55px] font-bold">Web
+                                                <br> Design</h2>
+                                            <p class="text-[#fff] text-[15px]  leading-[30px]">consectetur adipiscing
+                                                elit, eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-6 md:col-span-12 sm:col-span-12">
+                                <div class="mb-[60px]">
+                                    <div class="flex items-center justify-centert sm:block">
+                                        <div class="mr-8 sm:mr-0 sm:mb-8 w-[200px] h-[184px] text-center leading-[184px]
+                                                bg-[url('../images/wpo-service/shape-3.html')] bg-no-repeat bg-center">
+                                            <i class="text-[#181764] text-[60px] ml-[20px] fi flaticon-artist"></i>
+                                        </div>
+                                        <div class="max-w-[300px] lg:max-w-[200px] md:max-w-[500px] sm:max-w-full">
+                                            <h2 class="text-[#fff] text-[40px] mb-[20px] leading-[55px] font-bold">
+                                                Visual <br> Design</h2>
+                                            <p class="text-[#fff] text-[15px]  leading-[30px]">consectetur adipiscing
+                                                elit, eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-6 md:col-span-12 sm:col-span-12">
+                                <div class="mb-[60px]">
+                                    <div class="flex items-center justify-centert sm:block">
+                                        <div class="mr-8 sm:mr-0 sm:mb-8 w-[200px] h-[184px] text-center leading-[184px]
+                                                bg-[url('../images/wpo-service/shape-4.html')] bg-no-repeat bg-center">
+                                            <i class="text-[#181764] text-[60px] ml-[20px] fi flaticon-man"></i>
+                                        </div>
+                                        <div class="max-w-[300px] lg:max-w-[200px] md:max-w-[500px] sm:max-w-full">
+                                            <h2 class="text-[#fff] text-[40px] mb-[20px] leading-[55px] font-bold">
+                                                Business <br> Strategy</h2>
+                                            <p class="text-[#fff] text-[15px]  leading-[30px]">consectetur adipiscing
+                                                elit, eiusmod tempor incididunt labore.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        id="tabs-social" role="tabpanel">
+                        <div class="grid grid-cols-12 gap-8 lg:gap-3">
+                            <!-- Facebook -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                <div class="social-icon facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="ml-[30px]">
+                                    <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">Facebook</h2>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Instagram -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                <div class="social-icon instagram">
+                                    <i class="fab fa-instagram instagram-icon"></i>
+                                </div>
+
+                                <div class="ml-[30px]">
+                                    <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">Instagram</h2>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- Twitter -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                <div class="social-icon twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="ml-[30px]">
+                                    <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">Twitter</h2>
+                                </div>
+                                </div>
+                            </div>
+
+                             <!-- Threads -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                    <div class="social-icon threads">
+                                        <img src="https://cdn.simpleicons.org/threads" alt="Threads" width="60" height="60" />
+                                    </div>
+                                    <div class="ml-[30px]">
+                                        <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">Threads</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- LinkedIn -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                <div class="social-icon linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="ml-[30px]">
+                                    <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">LinkedIn</h2>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- GitHub -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="flex items-center mb-[60px]">
+                                <div class="social-icon github">
+                                    <i class="fab fa-github"></i>
+                                </div>
+
+                                <div class="ml-[30px]">
+                                    <h2 class="text-[30px] sm:text-[25px] text-[#fff] font-bold">GitHub</h2>
+                                </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        id="tabs-award" role="tabpanel">
+                        <div class="grid grid-cols-12 gap-8 lg:gap-3">
+
+                            <!-- Award 1: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award1.jpg" alt="Award 1" />
+                                </div>
+                            </div>
+
+                            <!-- Award 2: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award2.jpg" alt="Award 2" />
+                                </div>
+                            </div>
+
+                            <!-- Award 3: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award3.jpg" alt="Award 3" />
+                                </div>
+                            </div>
+
+                            <!-- Award 4: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award4.jpg" alt="Award 4" />
+                                </div>
+                            </div>
+
+                            <!-- Award 5: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award5.png" alt="Award 5" />
+                                </div>
+                            </div>
+
+                            <!-- Award 6: Column 1 -->
+                            <div class="col-span-4 md:col-span-6 sm:col-span-12">
+                                <div class="award-box">
+                                    <img src="assets/images/about/award6.jpg" alt="Award 6" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+    <section class="service">
+      <div class="section__container service__container">
+        <br />
+        
+        <p class="section__subtitle">What I Offer!</p>
+        <h2 class="section__title"><span>My</span> Services</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <i class="ri-smartphone-line"></i>
+            <h4>Web Design</h4>
+            <p>
+              We are dedicated to providing high-quality web design services
+              that are tailored to meet the specific needs of our clients.
+            </p>
+            <a href="#" class="read__more">Read more...</a>
+          </div>
+          <div class="service__card">
+            <i class="ri-code-s-slash-line"></i>
+            <h4>Web Development</h4>
+            <p>
+              We use the latest web technologies and development tools to create
+              websites that are fast, secure, and scalable.
+            </p>
+            <a href="#" class="read__more">Read more...</a>
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Creative Design</h4>
+            <p>
+              Our approach is collaborative, and we encourage your feedback
+              throughout the design process to ensure that we are meeting your
+              expectations.
+            </p>
+            <a href="#" class="read__more">Read more...</a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+    </section>
+
+    <section class="project">
+        <br />
+      <div class="section__container project__container">
+        <p class="section__subtitle">Portfolio</p>
+        <h2 class="section__title"><span>Latest</span> Project</h2>
+        <div class="project__grid">
+          <div class="project__card">
+            <img src="assets/project-1.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-2.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-3.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-4.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-5.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-6.png" alt="project" />
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <footer>
+        <br />
+        <div class="section__container footer__container">
+            <div class="footer__content">
+                <h2 class="section__title">Contact <span>Me!</span></h2>
+                <p class="section__subtitle">If you have any project in your mind</p>
+                <div class="footer__details">
+                    <p>
+                    You can reach me through the contact form provided on this
+                    website. Simply fill out the form with your name, email address,
+                    and message, and I will get back to you as soon as possible.
+                    </p>
+                    <p>Ayush Mittal</p>
+                    <p>Ahmedabad, Gujarat,</p>
+                    <p>India</p>
+                </div>
+                <div class="social__icons">
+                    <a href="#" class="icon"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" class="icon"><i class="ri-mail-line"></i></a>
+                    <a href="#" class="icon"><i class="ri-twitter-fill"></i></a>
+                    <a href="#" class="icon"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+            <form class="contact-validation-active" id="wpo-contact-form">
+                <br><br>
+                                <div class="w-[calc(50%-15px)] float-left sm:w-full sm:float-none  mb-[15px]">
+                                    <input type="text"
+                                        class="form-control transition-all placeholder-[#fff] focus:outline-0 focus:shadow-none focus:border-b-[#ff4e05] focus:bg-transparent base-font text-[#FFF] text-[14px] pr-[12px] py-[6px] bg-transparent w-full h-[50px] border-[0px] border-b-[1px] border-[#464646]"
+                                        name="name" id="name" required placeholder="First Name" minlength="2">
+                                        <div class="error-message" id="error-name"></div>
+                                </div>
+                                <div
+                                    class="w-[calc(50%-15px)] float-left sm:w-full sm:float-none sm:ml-0 ml-[30px] mb-[15px]">
+                                    <input type="text"
+                                        class="form-control transition-all placeholder-[#fff] focus:outline-0 focus:shadow-none focus:border-b-[#ff4e05] focus:bg-transparent base-font text-[#FFF] text-[14px] pr-[12px] py-[6px] bg-transparent w-full h-[50px] border-[0px] border-b-[1px] border-[#464646]"
+                                        name="name2" id="name2" required placeholder="Last Name">
+                                        <div class="error-message" id="error-name2"></div>
+                                </div>
+                                <div class="clearfix mb-[15px]">
+                                    <input type="email"
+                                        class="form-control transition-all placeholder-[#fff]  focus:outline-0 focus:shadow-none focus:border-b-[#ff4e05] focus:bg-transparent base-font text-[#FFF] text-[14px] pr-[12px] py-[6px] bg-transparent w-full h-[50px] border-[0px] border-b-[1px] border-[#464646]"
+                                        name="email" id="email" required placeholder="Email">
+                                        <div class="error-message" id="error-email"></div>
+                                </div>
+                                <div class="mb-[15px]">
+                                    <input type="text"
+                                        class="form-control transition-all placeholder-[#fff] focus:outline-0 focus:shadow-none focus:border-b-[#ff4e05] focus:bg-transparent base-font text-[#FFF] text-[14px] pr-[12px] py-[6px] bg-transparent w-full h-[50px] border-[0px] border-b-[1px] border-[#464646]"
+                                        name="subject" id="subject" required placeholder="Subject">
+                                        <div class="error-message" id="error-subject"></div>
+                                </div>
+                                <div class="mb-[15px]">
+                                    <textarea
+                                        class="form-control transition-all placeholder-[#fff] focus:outline-0 focus:shadow-none focus:border-b-[#ff4e05] focus:bg-transparent base-font text-[#FFF] text-[14px] pr-[12px] py-[6px] bg-transparent w-full h-[175px] sm:h-[90px] border-[0px] border-b-[1px] border-[#464646]"
+                                        name="note" id="note" placeholder="Case Description..."></textarea>
+                                </div>
+                                <div class="submit-area w-full text-center mt-[33px] mb-[30px]">
+                                    <button type="submit" class="theme-btn submit-btn  bg-[#fe3e57]">Send
+                                        Message</button>
+                                    <div id="loader">
+                                        <i class="ti-reload"></i>
+                                    </div>
+                                </div>
+                                <div class="clearfix error-handling-services">
+                                    <div id="success">Thank you</div>
+                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
+                                </div>
+            </form>
+            
+      </div>
+    </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
+        <!-- Odometer -->
+
+        <script src="jquery-plugin-collection.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const skillTab = document.querySelector('[data-te-target="#tabs-skill"]');
+                let animated = false;
+
+                if (skillTab) {
+                skillTab.addEventListener("click", function () {
+                    if (!animated) {
+                    document.querySelectorAll("#tabs-skill .odometer").forEach(el => {
+                        el.innerHTML = el.dataset.count;
+                    });
+                    animated = true;
+                    }
+                });
+                }
+            });
+        </script>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
